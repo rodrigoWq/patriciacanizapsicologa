@@ -5777,11 +5777,13 @@ textarea.form-control-lg {
   opacity: 1;
 }
 
-.carousel img {
-  width: 100% !important;
-  min-width: 100 !important; 
+.carousel-inner img {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: auto;
-
+  object-fit: contain !important;
+  display: block;
 } 
 
 .carousel-fade .active.carousel-item-start,
