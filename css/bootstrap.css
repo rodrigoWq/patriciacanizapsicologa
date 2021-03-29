@@ -5776,6 +5776,14 @@ textarea.form-control-lg {
   z-index: 1;
   opacity: 1;
 }
+
+.carousel img {
+  width: 100% !important;
+  min-width: 100 !important; 
+  height: auto;
+
+} 
+
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
   z-index: 0;
